@@ -9,7 +9,7 @@
 You are required to submit the following:
 
 - The URL to the deployed application
-  https://git.heroku.com/glacial-eyrie-34834.git
+  https://glacial-eyrie-34834.herokuapp.com/
 
 - The URL to the Github repository
   https://github.com/Findjules2/workoutTracker
