@@ -39,12 +39,13 @@ module.exports = function(app) {
       .then(results => res.json(results))
       .catch(err => {
         if (err) throw err;
+        res.json({ error: err });
       });
   });
 
   app.get("/api/workouts/range", (req, res) => {
     db.Workout.find({})
-      .limit(7)
+      // .limit(7)
       .then(dbWorkout => {
         res.json(dbWorkout);
       })
